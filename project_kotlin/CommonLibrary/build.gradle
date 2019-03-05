@@ -1,0 +1,68 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    testImplementation rootProject.ext.junit
+    androidTestImplementation rootProject.ext.runner
+    androidTestImplementation rootProject.ext.espresso_core
+
+    api rootProject.ext.kotlin_stdlib_jdk7
+
+    api rootProject.ext.support_appcompact
+    api  rootProject.ext.constraint_layout
+    api  rootProject.ext.support_cardview
+    api  rootProject.ext.support_design
+    api  rootProject.ext.support_v4
+    api  rootProject.ext.support_recyclerview
+    api  rootProject.ext.support_annotations
+    api  rootProject.ext.support_multidex
+
+    api  rootProject.ext.rxandroid
+    api  rootProject.ext.rxkotlin
+
+    api  rootProject.ext.glide
+    api  rootProject.ext.okhttp_integration
+    annotationProcessor  rootProject.ext.glide_compiler
+
+    api  rootProject.ext.okhttp
+
+    api  rootProject.ext.arouter_api
+
+    api rootProject.ext.fastJson
+
+
+    api rootProject.ext.LZHSLibary
+
+}
