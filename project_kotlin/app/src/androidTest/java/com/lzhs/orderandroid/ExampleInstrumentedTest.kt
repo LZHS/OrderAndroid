@@ -1,4 +1,4 @@
-package com.lzhs.orderandroid
+package com.lzhs.order_kotlin
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.lzhs.orderandroid", appContext.packageName)
+        assertEquals("com.lzhs.order_kotlin", appContext.packageName)
     }
 }

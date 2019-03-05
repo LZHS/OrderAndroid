@@ -1,4 +1,4 @@
-package com.lzhs.orderandroid.activitys
+package com.lzhs.order_kotlin.activitys
 
 import android.os.Bundle
 import android.support.v4.app.FragmentTransaction
@@ -6,8 +6,8 @@ import com.alibaba.android.arouter.facade.annotation.Route
 import com.lzhs.commonlibrary.bases.activity.BaseActivity
 import com.lzhs.commonlibrary.configs.ARoutConfig.WELCOMEACTIVITY
 import com.lzhs.library.utils.StatusBarUtil
-import com.lzhs.orderandroid.R
-import com.lzhs.orderandroid.fragments.Welcome1Fragment
+import com.lzhs.order_kotlin.R
+import com.lzhs.order_kotlin.fragments.Welcome1Fragment
 
 /**
  * Description: 描述 <br/>

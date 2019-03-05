@@ -1,4 +1,4 @@
-package com.lzhs.order.orderjava;
+package com.lzhs.order_java;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

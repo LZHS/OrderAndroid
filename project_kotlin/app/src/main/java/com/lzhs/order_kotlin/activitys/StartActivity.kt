@@ -1,10 +1,10 @@
-package com.lzhs.orderandroid.activitys
+package com.lzhs.order_kotlin.activitys
 
 import android.os.Bundle
 import com.lzhs.commonlibrary.bases.activity.BaseActivity
 import com.lzhs.commonlibrary.configs.ARoutConfig.startWelcomeActivity
 import com.lzhs.library.utils.StatusBarUtil
-import com.lzhs.orderandroid.R
+import com.lzhs.order_kotlin.R
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

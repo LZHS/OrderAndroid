@@ -1,4 +1,4 @@
-package com.lzhs.orderandroid.fragments
+package com.lzhs.order_kotlin.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import com.lzhs.commonlibrary.bases.fragment.BaseFragment
 import com.lzhs.commonlibrary.configs.ARoutConfig.startMainActivity
 
-import com.lzhs.orderandroid.R
+import com.lzhs.order_kotlin.R
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

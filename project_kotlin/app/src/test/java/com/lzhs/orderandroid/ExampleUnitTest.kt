@@ -1,4 +1,4 @@
-package com.lzhs.orderandroid
+package com.lzhs.order_kotlin
 
 import org.junit.Test
 

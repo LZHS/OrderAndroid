@@ -1,4 +1,4 @@
-package com.lzhs.order.orderjava;
+package com.lzhs.order;
 
 import org.junit.Test;
 

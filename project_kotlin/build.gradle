@@ -39,7 +39,7 @@ project.ext {
     versionCode = 20181127
     versionName = "1.0.0"
 
-    applicationId = "com.lzhs.orderandroid"
+    applicationId = "com.lzhs.order_kotlin"
 
     //AndroidSuport
     support_version = buildToolsVersion
